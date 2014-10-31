@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Search Widget -->
+    <item android:id="@+id/photos_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/menu_photos_search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"/>
+
+</menu>
